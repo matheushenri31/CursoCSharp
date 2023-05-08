@@ -9,7 +9,7 @@ namespace CursoCSharp.Fundamentos {
 
         public static void Executar() {
 
-            string saudacao = "Olá".ToUpper().Insert(3, " World!").Replace("World", "Mundo");
+            string saudacao = "Olá".ToUpper().Insert(3, " World!").Replace("World", "Mundo");''
             Console.WriteLine($"Salve {saudacao}");
         }
     }
