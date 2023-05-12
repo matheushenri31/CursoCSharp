@@ -9,7 +9,7 @@ namespace CursoCSharp.Fundamentos {
 
         public static void Executar() {
 
-            /* Console.WriteLine("N1: ");
+             /*Console.WriteLine("N1: ");
              double n1 = double.Parse(Console.ReadLine());
 
              Console.WriteLine("N2: ");
@@ -32,7 +32,7 @@ namespace CursoCSharp.Fundamentos {
              double somas = ((((n1 * 3.5) + n2 * 7.5) / 11) / 10);
 
              Console.WriteLine($"Resultado: {somas.ToString("F")}");
- */
+ 
 
             Console.WriteLine("Seu número: ");
             int numero = int.Parse(Console.ReadLine());
@@ -45,7 +45,7 @@ namespace CursoCSharp.Fundamentos {
 
             double salario = horas * valor_por_hora;
 
-            Console.WriteLine($"Número de funcionário: {numero} \r\nSalário: {salario.ToString("C")}");
+            Console.WriteLine($"Número de funcionário: {numero} \r\nSalário: {salario.ToString("C")}");*/
         }
     }
 }
