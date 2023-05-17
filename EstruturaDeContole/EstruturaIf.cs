@@ -4,12 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.EstruturaDeContole {
-    class Estruturaif {
+namespace CursoCSharp.EstruturaDeContole
+{
+    class Estruturaif
+    {
 
-        public static void Executar() {
+        public static void Executar()
+        {
 
-            Console.WriteLine("Nota 1: ");
+            /*Console.WriteLine("Nota 1: ");
             double n1 = double.Parse(Console.ReadLine());
 
             Console.WriteLine("Nota 2: ");
@@ -28,6 +31,17 @@ namespace CursoCSharp.EstruturaDeContole {
             }
 
             Console.WriteLine($"Resultado: {resultado}");
+*/
+
+            /* CONVERTENDO TRY PARSE */
+            Console.WriteLine("Digite um número: ");
+            string palavra = Console.ReadLine();
+            int numero;
+            int.TryParse(palavra, out numero);
+            Console.WriteLine($"Resultado: {numero}");
+            /*Enquanto o Parse faz a conversão da informação
+             o TryParse verifica se é possível converter para depois fazer a conversão
+            */
         }
     }
 }
