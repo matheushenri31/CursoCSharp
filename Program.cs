@@ -22,7 +22,8 @@ namespace CursoCSharp {
                 {"Estrutura If - Estruturas de Controle",Estruturaif.Executar },
                 {"Exercicios2 - Estruturas de Controle",Exercicio2.Executar},
                 {"Estrutura Switch - Estruturas de Controle",EstruturaSwitch.Executar},
-                {"Estrutura While e For - Estruturas de Controle",EstruturaWhileEFor.Executar }
+                {"Estrutura While e For - Estruturas de Controle",EstruturaWhileEFor.Executar },
+                {"Exercicio3 - Estruturas de Controle",Exercicio3.Executar }
 
             });
 
