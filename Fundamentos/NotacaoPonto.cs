@@ -9,9 +9,15 @@ namespace CursoCSharp.Fundamentos {
 
         public static void Executar() {
 
+            //notãção ponto ToUpper
             string saudacao = "Olá".ToUpper().Insert(3, " World!").Replace("World", "Mundo");
             Console.WriteLine(saudacao);
-        
+
+
+
+
+
+
         }
     }
 }

@@ -7,17 +7,18 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Fundamentos {
     class VariaveisEConstantes {
 
-            public static void Executar() {
+        public static void Executar() {
 
-                //variavel
-                double raio = 1.3;
+            //variavel
+            double raio = 1.3;
 
-                //constante
-                const double pi = 3.14;
+            //constante
+            const double pi = 3.14;
 
-                double area = pi * raio * raio;
+            double area = pi * raio * raio;
 
-                Console.WriteLine($"A área total é de: {area}");
+            Console.WriteLine($"A área total é de: {area}");
+
 
             string nome = "Cleiton";
             int idade = 23;
@@ -25,7 +26,7 @@ namespace CursoCSharp.Fundamentos {
             bool temGato = true;
             var sobrenome = "Perez";
 
-            Console.WriteLine($"{nome} tem {idade} anos, tem {altura} Metros de altura, e ele gosta de gatos? {temGato}");
+
 
         }
     }

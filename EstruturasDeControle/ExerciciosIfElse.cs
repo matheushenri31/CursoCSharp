@@ -4,12 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.Fundamentos {
-    class ExerciciosOperadores {
+namespace CursoCSharp.EstruturasDeControle {
+    class ExerciciosIfElse {
 
         public static void Executar() {
-            Console.WriteLine("oi \n");
-            Console.WriteLine("oi \n dfklsdf");
 
         }
     }

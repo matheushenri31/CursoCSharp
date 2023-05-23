@@ -7,26 +7,22 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Fundamentos {
     class LendoDados {
 
-        public static void Executar(){
+        public static void Executar() {
 
             Console.WriteLine("Qual seu nome?");
             string nome = Console.ReadLine();
 
-            Console.WriteLine("Qual a sua idade?");
-            // Fazendo a conversão para inteiro
+            Console.WriteLine("Qual sua idade?");
+            // fazendo a conversão de um inteiro
             int idade = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Qual a sua altura?");
-            // Fazendo converão para float
+            Console.WriteLine( "Qual sua altura?");
             double altura = double.Parse(Console.ReadLine());
 
-            // Tentar exibir as variaveis em uma mensagem
-
-            Console.WriteLine($"Olá, {nome}, você tem {idade} anos, e {altura} metros de altura");
-
-
+            //tentar exibir as variaveis em uma mensagem
+            Console.WriteLine($"Olá {nome} você tem {idade} anos e tem {altura}");
+           
 
         }
-
     }
 }

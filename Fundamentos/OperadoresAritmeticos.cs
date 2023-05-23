@@ -7,26 +7,18 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Fundamentos {
     class OperadoresAritmeticos {
 
-
         public static void Executar() {
 
-            /*Console.WriteLine("Número 1:");
-            int numero1 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Número 2:");
-            int numero2 = int.Parse(Console.ReadLine());
-
-            Console.WriteLine($"A soma entre {numero1} e {numero2} é igual a {numero1 + numero2}");*/
-
-            Console.WriteLine("Base do triângulo: ");
-            double base_triangulo = double.Parse(Console.ReadLine());
-
-            Console.WriteLine("Altura do triângulo: ");
-            double altura = double.Parse(Console.ReadLine());
-
-            Console.WriteLine($"A área desse triângulo é de {(base_triangulo * altura) / 2}m2");
+            Console.WriteLine("Digite um número: ");
+            double n1 = double.Parse(Console.ReadLine());
 
 
+            Console.WriteLine("Digite outro número: ");
+            double n2 = double.Parse(Console.ReadLine());
+
+            double resultado = n1 + n2;
+
+            Console.WriteLine($"A soma total foi de {resultado.ToString("#.##")}");
 
         }
     }

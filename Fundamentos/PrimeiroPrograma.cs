@@ -9,9 +9,8 @@ namespace CursoCSharp.Fundamentos {
 
         public static void Executar() {
             System.Console.Write("Primeiro");
-            Console.WriteLine("programa");
+            Console.WriteLine("Programa");
             Console.WriteLine("Acabou!");
         }
     }
 }
-

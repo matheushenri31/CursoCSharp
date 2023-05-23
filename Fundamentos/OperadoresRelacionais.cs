@@ -12,15 +12,19 @@ namespace CursoCSharp.Fundamentos {
             int b = 4;
             int c = 16;
             int d = 20;
-
-            // Verdadeiro
-            Console.WriteLine(a >= d);
+            
+            //verdadeiro
+            Console.WriteLine( a >= d);
             Console.WriteLine(b != c);
-            // Falso
-            Console.WriteLine(d < c );
-            //
+            //falso
+            Console.WriteLine( d < c);
+            //                     V E V
             Console.WriteLine(a > b && d != c);
+            //                    F  OU   V
             Console.WriteLine(d == c || b <= a);
+
+
+
         }
     }
 }

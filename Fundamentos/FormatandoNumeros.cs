@@ -10,12 +10,14 @@ namespace CursoCSharp.Fundamentos {
         public static void Executar() {
 
 
-            double valor = 15.720;
-            // Arrendondar número
+            double valor = 15.329;
+
+            Console.WriteLine("Digite um numero: ");
+            //Arredondar número
             Console.WriteLine(valor.ToString("F1"));
-            // Transformar em valor monetário
+            //transformar em valor monetário
             Console.WriteLine(valor.ToString("C"));
-            // Formatando a moeda (ex:.. 2 casa após a virgula)
+            //Formatando do seu jeito
             Console.WriteLine(valor.ToString("#.#"));
         }
     }

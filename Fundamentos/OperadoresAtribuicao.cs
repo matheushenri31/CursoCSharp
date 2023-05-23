@@ -7,30 +7,28 @@ using System.Threading.Tasks;
 namespace CursoCSharp.Fundamentos {
     class OperadoresAtribuicao {
 
-        public static void Excutar() {
+        public static void Executar() {
 
-            // Atribuição
+            //atribuição
             var num = 8;
 
             num = 10;
 
-            // num += 20
+            //num += 20;
             num = num + 20;
-
             num -= 5;
 
-            // Incremento
+            //incremento
             var n1 = 8;
             var n2 = 90;
 
             n1++;
             n2--;
 
-
             Console.WriteLine(num);
             Console.WriteLine(n1);
             Console.WriteLine(n2);
-          
+
 
         }
     }
