@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CursoCSharp.MetodosEClasses
+namespace CursoCSharp.ClassesEMetodos
 {
-    class Construtores
+    class ExerciciosMetodosComRetorno
     {
         public static void Executar()
         {
