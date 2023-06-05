@@ -39,7 +39,8 @@ namespace CursoCSharp {
 
                 //Coleções
                 {"Arrays - Coleções",Arrays.Executar },
-                {"Coleções Queue - Coleções",ColecoesQueue.Executar }
+                {"Coleções Queue - Coleções",ColecoesQueue.Executar },
+                {"Coleções Stack - Coleções",ColecoesStack.Executar }
 
                
             }); ;
