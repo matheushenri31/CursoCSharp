@@ -46,3 +46,6 @@ C:\Users\matheus.hsilva65\source\repos\CursoCSharp\obj\Debug\net5.0\CursoCSharp.
 C:\Users\matheus.hsilva65\source\repos\CursoCSharp\obj\Debug\net5.0\ref\CursoCSharp.dll
 C:\Users\matheus.hsilva65\source\repos\CursoCSharp\obj\Debug\net5.0\CursoCSharp.pdb
 C:\Users\matheus.hsilva65\source\repos\CursoCSharp\obj\Debug\net5.0\CursoCSharp.genruntimeconfig.cache
+C:\Users\matheus.hsilva65\source\repos\CursoCSharp\bin\Debug\net5.0\Encapsulamento.dll
+C:\Users\matheus.hsilva65\source\repos\CursoCSharp\bin\Debug\net5.0\Encapsulamento.pdb
+C:\Users\matheus.hsilva65\source\repos\CursoCSharp\obj\Debug\net5.0\CursoCSharp.csproj.CopyComplete
